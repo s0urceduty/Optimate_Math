@@ -45,6 +45,11 @@ Corollary (Dominance Condition):
 If A > B, then to maximize F, set w_A* > w_B*.
 Conversely, if B > A, set w_B* > w_A*.
 
+Proof of Theorem:
+-----------
+
+The Optimation Theorem, grounded in the principle of variable adding, provides a formal proof that adaptive, non-fixed updates to system parameters—such as half-adding or weighted increments—can converge to a stable outcome over time. By defining each update as a function of dynamic weights (e.g., \( \Delta x_i^{(t)} = \alpha_i^{(t)} f(x_i^{(t)}) \)), the theorem shows that systems can iteratively rebalance variables based on real-time conditions while remaining within bounded limits. This adaptive structure ensures convergence, responsiveness, and applicability across domains, validating optimation as a flexible and mathematically sound method for navigating complex, evolving systems.
+
 Conclusion:
 -----------
 
@@ -52,11 +57,6 @@ This theorem provides a mathematical framework for optimation, ensuring that the
 are adjusted optimally based on their contributions to the model outcome. By systematically adjusting w_A 
 and w_B within the given range, an optimal balance is achieved, leading to improved performance of 
 the mathematical model.
-
-Proof
------------
-
-The Optimation Theorem, grounded in the principle of variable adding, provides a formal proof that adaptive, non-fixed updates to system parameters—such as half-adding or weighted increments—can converge to a stable outcome over time. By defining each update as a function of dynamic weights (e.g., \( \Delta x_i^{(t)} = \alpha_i^{(t)} f(x_i^{(t)}) \)), the theorem shows that systems can iteratively rebalance variables based on real-time conditions while remaining within bounded limits. This adaptive structure ensures convergence, responsiveness, and applicability across domains, validating optimation as a flexible and mathematically sound method for navigating complex, evolving systems.
 
 -----------
 

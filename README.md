@@ -58,3 +58,8 @@ the mathematical model.
 https://chatgpt.com/g/g-6782f9139b9c8191af0f5656d669a80b-optimate-math
 <br>
 https://pypi.org/project/optimation/
+
+-----------
+
+> [!IMPORTANT]
+> This is Sourceduty's only/single mathematical theorem.

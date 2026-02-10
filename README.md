@@ -64,6 +64,7 @@ https://pypi.org/project/optimation/
 > [!IMPORTANT]
 > This is Sourceduty's only/single mathematical theorem.
 
+Proof
 -----------
 
 The Optimation Theorem, grounded in the principle of variable adding, provides a formal proof that adaptive, non-fixed updates to system parameters—such as half-adding or weighted increments—can converge to a stable outcome over time. By defining each update as a function of dynamic weights (e.g., \( \Delta x_i^{(t)} = \alpha_i^{(t)} f(x_i^{(t)}) \)), the theorem shows that systems can iteratively rebalance variables based on real-time conditions while remaining within bounded limits. This adaptive structure ensures convergence, responsiveness, and applicability across domains, validating optimation as a flexible and mathematically sound method for navigating complex, evolving systems.

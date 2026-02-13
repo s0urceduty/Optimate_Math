@@ -139,5 +139,5 @@ https://sourceduty.com/
 
 > [!IMPORTANT]
 > This is Sourceduty's only/single mathematical theorem.
-<br>
+> 
 > Web search terms such as 'optimation' or 'optimate math' fail on Google.

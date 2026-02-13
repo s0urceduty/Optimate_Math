@@ -63,6 +63,7 @@ the mathematical model.
 Examples Uses:
 -----------
 
+```
 1. Business Strategy – Marketing Budget (Digital A vs Traditional B)
    Outcome = A*wA + B*(1-wA)
    Example: A=100, B=60, wA=0.7
@@ -124,6 +125,7 @@ Examples Uses:
     Outcome = 10(0.9) + 20(0.1)
             = 9 + 2
             = 11
+```
 
 -----------
 

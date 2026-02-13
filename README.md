@@ -55,10 +55,9 @@ The Optimation Theorem, grounded in the principle of variable adding, provides a
 Conclusion:
 -----------
 
-This theorem provides a mathematical framework for optimation, ensuring that the weighting variables 
-are adjusted optimally based on their contributions to the model outcome. By systematically adjusting w_A 
-and w_B within the given range, an optimal balance is achieved, leading to improved performance of 
-the mathematical model.
+This theorem provides a mathematical framework for optimation, ensuring that the weighting variables are adjusted optimally based on their contributions to the model outcome. By systematically adjusting w_A and w_B within the given range, an optimal balance is achieved, leading to improved performance of the mathematical model.
+
+<img width="1726" height="752" alt="Optimate" src="https://github.com/user-attachments/assets/f5b6009a-dde0-4bf8-9ecf-f68d55350b01" />
 
 Examples Uses:
 -----------

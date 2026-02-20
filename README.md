@@ -140,3 +140,7 @@ https://sourceduty.com/
 > 🏆 This is Sourceduty's only/single mathematical theorem.
 > 
 > Web search terms such as 'optimation' or 'optimation math' fail on Google.
+
+-----------
+
+Alex: *"I'm happy that I made this fine-gradient balancing theorem which is a mathematical law that needs further work usage and publications."*

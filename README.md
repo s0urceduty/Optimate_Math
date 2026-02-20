@@ -52,12 +52,17 @@ Proof of Theorem:
 
 The Optimation Theorem, grounded in the principle of variable adding, provides a formal proof that adaptive, non-fixed updates to system parameters—such as half-adding or weighted increments—can converge to a stable outcome over time. By defining each update as a function of dynamic weights (e.g., \( \Delta x_i^{(t)} = \alpha_i^{(t)} f(x_i^{(t)}) \)), the theorem shows that systems can iteratively rebalance variables based on real-time conditions while remaining within bounded limits. This adaptive structure ensures convergence, responsiveness, and applicability across domains, validating optimation as a flexible and mathematically sound method for navigating complex, evolving systems.
 
-Conclusion:
+Theorem Conclusion:
 -----------
 
 This theorem provides a mathematical framework for optimation, ensuring that the weighting variables are adjusted optimally based on their contributions to the model outcome. By systematically adjusting w_A and w_B within the given range, an optimal balance is achieved, leading to improved performance of the mathematical model.
 
 <img width="1726" height="752" alt="Optimate" src="https://github.com/user-attachments/assets/f5b6009a-dde0-4bf8-9ecf-f68d55350b01" />
+
+Weighted Bias
+-----------
+
+Using optimation math weighting as a bias means intentionally assigning a controlled percentage weight (from 1–100) to variable A so that it exerts proportionally greater or lesser influence over variable B in determining the final outcome of a model, thereby embedding a directional preference into the calculation rather than treating both variables as neutral contributors. In optimation, weighting variable A is not merely a coefficient but a bias-setting mechanism that regulates how much of A is applied against B, such as in the weighted outcome model Outcome = A·w_A + B·(1 − w_A), where increasing w_A above 50% systematically favors A’s contribution and decreasing it below 50% favors B; this creates a measurable mathematical bias that can be tuned iteratively within a bounded 1–100 structure. Unlike traditional optimization, which seeks a single mathematically optimal solution, optimation emphasizes iterative percentage-based adjustment to explore balance and trade-offs, meaning bias is not hidden but deliberately adjustable and observable. The Optimation Weight Law further formalizes this concept by proving that bounded percentage weights (1–100) can modulate gradient-based updates without breaking convergence properties, ensuring that biasing A through adaptive weighting still preserves stable descent behavior.
 
 Examples Uses:
 -----------

@@ -126,6 +126,27 @@ Examples Uses:
             = 11
 ```
 
+Simple Use:
+-----------
+
+```
+Variables:
+A = 20
+B = 20
+
+Weights:
+wA = 100
+wB = 50
+
+Normalized to 100%:
+wA = 1
+wB = 0.5
+
+Outcome = (20 × 1) + (20 × 0.5)
+Outcome = 20 + 10 
+Outcome = 30
+```
+
 -----------
 
 https://chatgpt.com/g/g-6782f9139b9c8191af0f5656d669a80b-optimate-math

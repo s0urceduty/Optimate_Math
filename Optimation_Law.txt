@@ -1,0 +1,25 @@
+OPTIMATION WEIGHT LAW (OPTIMATE MATH)
+
+Let F: ℝ^n → ℝ be a continuously differentiable function that is lower bounded and has an L-Lipschitz continuous gradient, meaning ||∇F(x) − ∇F(y)|| ≤ L||x − y|| for all x, y ∈ ℝ^n. Define the Optimation (Optimate Math) iterative update by
+
+    x_{t+1} = x_t + Δ_t,
+    Δ_t = −α_t ∇F(x_t),
+
+where the Optimation step weight α_t is defined using a base schedule and a bounded Optimation weight rule as
+
+    β_t = c / (t + 1),  with c > 0,
+    w_t ∈ {1, 2, ..., 100},
+    α_t = min( β_t * (w_t / 100), 1 / L ).
+
+Assume that for all t, the Optimation weights satisfy 1 ≤ w_t ≤ 100. Then the following statements hold:
+
+(1) Descent Property:
+    F(x_{t+1}) ≤ F(x_t) − (α_t / 2) ||∇F(x_t)||^2.
+
+(2) Finite Optimation Energy:
+    Σ_{t=0}^∞ α_t ||∇F(x_t)||^2 < ∞.
+
+(3) Stationarity Condition (Law Conclusion):
+    liminf_{t→∞} ||∇F(x_t)|| = 0.
+
+Therefore, under the Optimation (Optimate Math) framework with base schedule β_t = c/(t+1) and any bounded weight rule generating w_t within [1,100] — including percent weighting, half-adding, or half/quarter/double adaptive schemes — the iterative process necessarily produces monotonic descent in the objective function, accumulates only finite weighted gradient energy, and must approach arbitrarily small gradients infinitely often. In long-form description: the Optimation Weight Law establishes that when variable adding is implemented as a diminishing but non-summable base schedule modulated by bounded percentage weights, the adaptive weighting mechanism does not disrupt convergence behavior but instead preserves deterministic descent guarantees inherent to smooth optimization systems; the bounded weight structure ensures that step sizes remain within constant factors of a provably convergent harmonic schedule, while the enforced smoothness cap prevents instability, thereby mathematically formalizing Optimation as a stable, descent-driven, adaptive weighting law whose dynamic 1–100 weighting structure can vary freely without violating convergence conditions, provided it remains bounded, and this guarantees that the system cannot indefinitely avoid stationary behavior, making the Optimation framework a rigorously grounded and law-consistent extension of classical gradient descent under adaptive percentage-based weight modulation.
